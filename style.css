@@ -350,13 +350,15 @@ footer a:hover{
         gap: 2px;
     }
     .ready{
-        font-size: 0.6em;
+        font-size: 0.8em;
     }
     .ready img{
         width: 10px;
     }
     #sm{
         width: 100px;
+        gap: 10px;
+        margin-right: 30px;
     }
     .contact-form{
         text-align: center;
