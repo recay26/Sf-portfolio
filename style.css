@@ -323,12 +323,12 @@ footer a:hover{
     .div2{
         flex-direction: column;
         height: 100%;
-    }
-    .div22 img{
+    }.div22{
+        height: 70vh;
+    }    .div22 img{
         border-radius: 54px;
         width: 250px;
         height: 400px;
-        padding-bottom: -100px;
     }
     .div23{
         padding-left: 0;
@@ -338,7 +338,13 @@ footer a:hover{
     }
     .div32{
         width: 90%;
-        margin-bottom: 40px;
+        margin-top: 40px;
+    }
+    .txt1{
+        font-size: 14px;
+    }
+    .txt2{
+        font-size: 14px;
     }
     .services-container{
         flex-direction: column;
