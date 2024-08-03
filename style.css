@@ -316,6 +316,9 @@ footer a:hover{
     .div11{
         top: 25%;
     }
+    .div11 img{
+        width: 320px;
+    }
     .div2{
         flex-direction: column;
         height: 100%;
