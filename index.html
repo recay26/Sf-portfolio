@@ -14,24 +14,34 @@
     <header>
         <h1>SF</h1>
         <div class="parts">
-            <a href="#">home</a>
-            <a href="#">about me</a>
-            <a href="#">services</a>
-            <a href="#">Contact me</a>
+            <a href="#home">home</a>
+            <a href="#abt">about me</a>
+            <a href="#myw">My Work</a>
+            <a href="#mys">services</a>
+            <a href="#contact">Contact me</a>
         </div>
-        <a href="#contact" class="boutton">Social Media</a>
+        <a href="#sm" class="boutton">Social Media</a>
     </header>
     <!-- 1er div-->
-    <div style="height: 90vh;background-color: aqua;"></div>
+    <div id="home" class="div1">
+        <div class="div11">
+            <span style="font-size: 2.5em; font-weight: bold;">Hey, I’m </span><br><span style="font-size: 3em;color: #e91263;">Sofiane Achab </span><br>
+            <img src="img/trai.png"><br>
+            <div style="font-size: 1.5em; margin-top: 20px;">A <span style="color: #e91263;">VIDEO EDITOR</span> <br>Transforming Ideas into Captivating Visual Stories</div>
+        </div>
+        <div class="div111">
+            <img src="img/sfpng.png" width="630">
+        </div>
+    </div>
     <!-- fin du 1er div-->
 
     <!-- 2eme div-->
-    <div class="div2">
+    <div id="abt" class="div2">
         <div class="div22">
-            <img src="img/IMG_6640.jpg" alt="">
+            <img src="img/abt.jpg" >
         </div>
         <div class="div23">
-            <h1 style="color: #005E83;margin-bottom: 20px;">More<br>
+            <h1 style="color: #e91e63;margin-bottom: 20px;">More<br>
             About Me : </h1>
             Lorem ipsum dolor, sit amet consectetur adipisicing elit. Officiis laboriosam deleniti at ad voluptatibus, necessitatibus repellendus<br> eveniet non eligendi aliquam, saepe officia, iure incidunt do<br>lorum totam. Quam modi sint rerum.
             Cum asperiores cumque consequatur earum ducimus quo velit optio! Exercitationem ut at, praesentium m<br>agnam odio cumque delectus sed minus, labor<br>um obcaecati et quasi nobis tempore, quae totam maiores voluptate error?
@@ -42,7 +52,7 @@
 
     <!-- 3eme div-->
     <div class="div3">
-        <div class="div31">
+        <div id="myw" class="div31">
             <h1>My Work</h1>
             <hr>
             <p class="txt1">In here you can see some of my work, some videos of mine<br>
@@ -50,7 +60,7 @@
             </p>
         </div>
         <div class="div32">
-            <video src="videos/Ideathon video.mp4" controls class="video"></video>
+            <video src="videos/Plan-Centre-Raphael_3.mp4" controls class="video"></video>
         </div>
     </div>
     <!-- fin du 3eme div-->
@@ -58,7 +68,7 @@
 
 
     <!-- 4eme div-->
-    <h1 style="text-align: center;color: #e91263;background-color: black;text-decoration: underline;">My Services : </h1>
+    <h1 id="mys" style="text-align: center;color: #e91263;background-color: black;text-decoration: underline;">My Services : </h1>
     <div class="services-container">
         <div class="services-paln">
             <div class="plan-icon">
@@ -85,10 +95,47 @@
 
 
     <!-- 5eme div-->
-    
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="contact-wrapper">
+                <div class="contact-form">
+                    <form>
+                        <h2>Contact us</h2>
+                    <div class="form-group">
+                        <input type="text" name="name" placeholder="Your Name" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" name="email" placeholder="Your Number" required>
+                    </div>
+                    <div class="form-group">
+                        <input name="message" placeholder="Your e-mail" required></input>
+                    </div>
+                    <textarea name="message" placeholder="Your Message" required></textarea>
+                    <button type="submit">Send</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
     <!-- fin du 5eme div-->
+
+
+
+
+    <!-- 6eme div-->
+    <section>
+        <div class="ready">READY FOR YOUR <br><span style="color: #e91263;">NEXT</span> VIDEO <span style="color: #e91263;">?</span></div>
+        <div ><a href="#home"><img src="img/icons8-up-arrow-24.png" ></div></a>
+        <div id="sm" class="icons">
+            <img src="img/linkedin.png">
+            <img src="img/discord.png" width="45px">
+            <img src="img/insta.png">
+        </div>
+    </section>
+    <!-- fin du 6eme div-->
     <footer>
         <p>All Rights Reserved &copy; 2024 | Coded By <a href="#">Recay</a></p>
+        
     </footer>
 </body>
 </html>
