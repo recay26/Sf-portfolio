@@ -386,3 +386,8 @@ footer a:hover{
         width: 290px;
     }
 }
+@media (min-width : 1600px){
+    .div111 img{
+        width: 1000px;
+    }
+}
