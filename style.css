@@ -167,6 +167,7 @@ header h1 {
     height: 200px;
     text-align: center;
     padding: 10px;
+    box-shadow: -10px -10px 20px  #e92e63;
 }
 .plan-icon{
     width: 80px;
@@ -300,7 +301,7 @@ footer a:hover{
 /*     fin footer      */
 
 
-@media (max-width : 750px){
+@media (max-width : 780px){
     .parts{
         display: none;
     }
@@ -333,11 +334,14 @@ footer a:hover{
     .div23{
         padding-left: 0;
     }
+    .div23 h1{
+        margin-top: -40px;
+    }
     .div3{
-        height: 100vh;
+        height: 80vh;
     }
     .div32{
-        width: 90%;
+        width: 70%;
         margin-top: 40px;
     }
     .txt1{
