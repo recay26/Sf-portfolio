@@ -337,13 +337,13 @@ footer a:hover{
     }
     .div23{
         padding-left: 0;
+        padding-top: 10px;
     }
     .abt1{
         display: flex;
         padding-top: 30px;
     }
     .abt2{
-        font-size: 0px;
         display: none;
     }
     .div3{
