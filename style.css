@@ -90,6 +90,9 @@ header h1 {
     overflow: hidden;
     background-color: black;
 }
+.abt1{
+    display: none;
+}
 .div22{
     display: flex;
     height: 80vh;
@@ -326,7 +329,8 @@ footer a:hover{
         height: 100%;
     }.div22{
         height: 70vh;
-    }    .div22 img{
+    }   
+    .div22 img{
         border-radius: 54px;
         width: 250px;
         height: 400px;
@@ -334,8 +338,12 @@ footer a:hover{
     .div23{
         padding-left: 0;
     }
-    .div23 h1{
-        margin-top: -40px;
+    .abt1{
+        display: flex;
+        padding-top: 30px;
+    }
+    .abt2{
+        display: none;
     }
     .div3{
         height: 80vh;
