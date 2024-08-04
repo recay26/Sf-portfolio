@@ -395,7 +395,7 @@ footer a:hover{
         bottom: 0;
     }
     .div111 img{
-        width: 500px;
+        width: 0px;
     }
     .disc{
         font-size: 1.1em;
@@ -404,7 +404,7 @@ footer a:hover{
         height: 100%;
     }
     .services-containet{
-        height: 100vh;
+        height: 100%;
     }
 }
 
