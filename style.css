@@ -400,6 +400,12 @@ footer a:hover{
     .disc{
         font-size: 1.1em;
     }
+    .contact{
+        height: 100%;
+    }
+    .services-containet{
+        height: 100vh;
+    }
 }
 
 @media (min-width : 1600px){
