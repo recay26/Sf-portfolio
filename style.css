@@ -404,6 +404,10 @@ footer a:hover{
     .div3{
         width: 100%;
     }
+    .div31 h1{
+
+        padding-top: 0px;
+    }
     .disc{
         font-size: 1.1em;
     }
