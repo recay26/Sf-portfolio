@@ -393,9 +393,10 @@ footer a:hover{
 @media (min-width : 781px) and (max-width : 1023px){
     .div111{
         bottom: 0;
+        right: 5%;
     }
     .div111 img{
-        width: 0px;
+        width: 280px;
     }
     .disc{
         font-size: 1.1em;
