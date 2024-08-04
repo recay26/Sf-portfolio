@@ -343,13 +343,13 @@ footer a:hover{
         padding-top: 30px;
     }
     .abt2{
-        display: none;
+        font-size: 0px;
     }
     .div3{
         height: 80vh;
     }
     .div32{
-        width: 70%;
+        width: 80%;
         margin-top: 40px;
     }
     .txt1{
