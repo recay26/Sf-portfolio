@@ -418,11 +418,11 @@ footer a:hover{
         width: 80%;
     }
     .span1{
-        font-size: 1.5em;
+        font-size: 1em;
         font-weight: bold;
     }
     .span2{
-        font-size: 2em;
+        font-size: 1.5em;
         color: #e91263;
     }
     .div111{
@@ -430,7 +430,7 @@ footer a:hover{
         right: 2%;
     }
     .div111 img{
-        width: 280px;
+        width: 340px;
     }
     .div2{
         padding-top: 70px;
