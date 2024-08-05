@@ -189,6 +189,10 @@ header h1 {
     color: #fff;
     padding-top: 10px;
 }
+.services-paln:hover{
+    opacity: 0.8;
+    transform: scale(1.1);
+}
 /*     fin div 4      */
 
 
@@ -282,6 +286,12 @@ section .icons{
     align-items: center;
     display: flex;
     gap: 20px;
+}
+.icons img:hover{
+    transform: scale(1.2);
+}
+.fleche img:hover{
+    transform: scale(1.4);
 }
 .ready{
     color: #fff;
