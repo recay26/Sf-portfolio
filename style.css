@@ -73,6 +73,14 @@ header h1 {
     font-size: 1.4em;
     margin-top: 20px;
 }
+.span1{
+    font-size: 2.5em;
+    font-weight: bold;
+}
+.span2{
+    font-size: 3em;
+    color: #e91263;
+}
 .div111{
     position: absolute;
     right: -10%;
@@ -403,8 +411,19 @@ footer a:hover{
     header{
         padding: 30px 10px;
     }
+    .div11{
+        top: 20%;
+    }
     .div11 img{
         width: 80%;
+    }
+    .span1{
+        font-size: 1.5em;
+        font-weight: bold;
+    }
+    .span2{
+        font-size: 2em;
+        color: #e91263;
     }
     .div111{
         bottom: 0;
