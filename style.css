@@ -385,6 +385,9 @@ footer a:hover{
         text-align: center;
         width: 290px;
     }
+    #mys{
+        padding-top: 70px;
+    }
 }
 @media (min-width : 766px) and (max-width : 1023px){
     header{
