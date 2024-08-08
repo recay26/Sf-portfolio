@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sofiane ACHAB</title>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -12,7 +13,7 @@
 </head>
 <body>
     <header>
-        <h1>SF</h1>
+        <h1><a href="#home" style="color: black; text-decoration: none;">SF</a></h1>
         <div class="parts">
             <a href="#home">home</a>
             <a href="#abt">about me</a>
@@ -24,7 +25,7 @@
     </header>
     <!-- 1er div-->
     <div id="home" class="div1">
-        <div class="div11">
+        <div class="div11" data-aos="fade-down-right">
             <span class="span1">Hey, I’m </span><br><span class="span2">Sofiane Achab </span><br>
             <img src="img/trait.png"><br>
             <div class="disc">A <span style="color: #e91263;">VIDEO EDITOR</span> <br>Transforming Ideas into Captivating Visual Stories</div>
@@ -32,17 +33,25 @@
         <div class="div111">
             <img src="img/sfpng.png" width="630">
         </div>
+        <div class="div14">
+            <div class="div144" data-aos="fade-right">My skills</div>
+            <div class="div15" data-aos="fade-left">
+                <div><img src="img/icons8-adobe-after-effects-48.png"></div>
+                <div><img src="img/icons8-adobe-premiere-pro-48.png"></div>
+                <div><img src="img/capcut.jpeg" width="50px"></div>
+            </div>
+        </div>
     </div>
     <!-- fin du 1er div-->
 
     <!-- 2eme div-->
-    <div id="abt" class="div2">
-        <h1 class="abt1" style="color: #e91e63;">More<br>
+    <div id="abt" class="div2" >
+        <h1  class="abt1" style="color: #e91e63;">More<br>
             About Me : </h1>
-        <div class="div22">
+        <div class="div22" data-aos="fade-right">
             <img src="img/abt.jpg" >
         </div>
-        <div class="div23">
+        <div class="div23" data-aos="fade-left">
             <h1 class="abt2" style="color: #e91e63;margin-bottom: 20px;">More<br>
             About Me : </h1>
             Lorem ipsum dolor, sit amet consectetur adipisicing elit. Officiis laboriosam deleniti at ad voluptatibus, necessitatibus repellendus<br> eveniet non eligendi aliquam, saepe officia, iure incidunt do<br>lorum totam. Quam modi sint rerum.
@@ -54,14 +63,14 @@
     <!-- 3eme div-->
     <div class="div3">
         <div id="myw" class="div31">
-            <h1>My Work</h1>
+            <div data-aos="zoom-in-down"><h1>My Work</h1></div>
             <hr>
             <p class="txt1">In here you can see some of my work, some videos of mine<br>
             <p class="txt2">if wanna see more all you have to do is to <a href="https://drive.google.com/drive/folders/1xBaZRqxo1-7tss7CGWmhYVI4e8Z3w3Hf" target="_blank">Click here</a></p>
             </p>
         </div>
-        <div class="div32">
-            <video src="videos/Plan-Centre-Raphael_3.mp4" controls class="video"></video>
+        <div class="div32" >
+            <video src="videos/Plan-Centre-Raphael_3.mp4" controls class="video" data-aos="zoom-in-up"></video>
         </div>
     </div>
     <!-- fin du 3eme div-->
@@ -69,21 +78,21 @@
 
 
     <!-- 4eme div-->
-    <h1 id="mys" style="text-align: center;color: #e91263;text-decoration: underline;">My Services : </h1>
+    <div id="mys" data-aos="zoom-in-down"><h1 style="text-align: center;color: #e91263;text-decoration: underline;">My Services : </h1></div>
     <div class="services-container">
-        <div class="services-paln">
+        <div class="services-paln" data-aos="flip-left">
             <div class="plan-icon">
                 <svg xmlns="http://www.w3.org/2000/svg" class="ionicon" viewBox="0 0 512 512"><path d="M374.79 308.78L457.5 367a16 16 0 0022.5-14.62V159.62A16 16 0 00457.5 145l-82.71 58.22A16 16 0 00368 216.3v79.4a16 16 0 006.79 13.08z" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="32"/><path d="M268 384H84a52.15 52.15 0 01-52-52V180a52.15 52.15 0 0152-52h184.48A51.68 51.68 0 01320 179.52V332a52.15 52.15 0 01-52 52z" fill="none" stroke="currentColor" stroke-miterlimit="10" stroke-width="32"/></svg></div>
             <div class="plan-title">Short Videos</div>
             <div class="plan-disc"> bla bla bla bla bla bla bla bla bla </div>
         </div>
-        <div class="services-paln">
+        <div class="services-paln" data-aos="flip-down">
             <div class="plan-icon">
                 <svg xmlns="http://www.w3.org/2000/svg" class="ionicon" viewBox="0 0 512 512"><path d="M374.79 308.78L457.5 367a16 16 0 0022.5-14.62V159.62A16 16 0 00457.5 145l-82.71 58.22A16 16 0 00368 216.3v79.4a16 16 0 006.79 13.08z" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="32"/><path d="M268 384H84a52.15 52.15 0 01-52-52V180a52.15 52.15 0 0152-52h184.48A51.68 51.68 0 01320 179.52V332a52.15 52.15 0 01-52 52z" fill="none" stroke="currentColor" stroke-miterlimit="10" stroke-width="32"/></svg></div>
             <div class="plan-title">Video Editor</div>
             <div class="plan-disc"> bla bla bla bla bla bla bla bla bla </div>
         </div>
-        <div class="services-paln">
+        <div class="services-paln" data-aos="flip-right">
             <div class="plan-icon">
                 <svg xmlns="http://www.w3.org/2000/svg" class="ionicon" viewBox="0 0 512 512"><path d="M374.79 308.78L457.5 367a16 16 0 0022.5-14.62V159.62A16 16 0 00457.5 145l-82.71 58.22A16 16 0 00368 216.3v79.4a16 16 0 006.79 13.08z" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="32"/><path d="M268 384H84a52.15 52.15 0 01-52-52V180a52.15 52.15 0 0152-52h184.48A51.68 51.68 0 01320 179.52V332a52.15 52.15 0 01-52 52z" fill="none" stroke="currentColor" stroke-miterlimit="10" stroke-width="32"/></svg></div>
             <div class="plan-title">Long Videos</div>
@@ -128,7 +137,7 @@
     <section>
         <div class="ready">READY FOR YOUR <br><span style="color: #e91263;">NEXT</span> VIDEO <span style="color: #e91263;">?</span></div>
         <div class="fleche"><a href="#home"><img src="img/icons8-up-arrow-24.png" ></div></a>
-        <div id="sm" class="icons">
+        <div id="sm" class="icons" >
             <a href="https://www.linkedin.com/in/sofiane-achab-71892729b/"><img src="img/linkedin.png"></a>
             <a href="https://discordapp.com/users/705527579834318930"><img src="img/discord.png" width="45px"></a>
             <a href="https://www.instagram.com/laymne01/"><img src="img/insta.png"></a>
@@ -140,5 +149,9 @@
         
     </footer>
 
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 </body>
 </html>
