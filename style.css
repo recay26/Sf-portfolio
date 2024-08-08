@@ -10,7 +10,7 @@ body,html{
     scroll-behavior: smooth;
 }
 header{
-    width: 100%;
+    width: 90%;
     height: 60px;
     display: flex;
     background-color: #fff;
@@ -19,8 +19,10 @@ header{
     justify-content: space-between;
     align-items: center;
     padding: 30px 30px;
-    border-bottom: 4px solid #e91e63;
+    border-bottom: 5px solid #e91e63;
+    border-radius: 50px;
     position: fixed;
+    transform: translateX(5%);
 }
 header h1 {
     color: black;
@@ -347,6 +349,10 @@ footer a:hover{
 
 
 @media (max-width : 765px){
+    header{
+        width: 96%;
+        transform: translateX(2%);
+    }
     .parts{
         display: none;
     }
@@ -441,6 +447,12 @@ footer a:hover{
     header{
         padding: 30px 10px;
     }
+    .parts {
+        gap: 15px;
+    }
+    .parts a{
+        font-size: 18px;
+    }
     .div11{
         top: 20%;
     }
@@ -491,8 +503,8 @@ footer a:hover{
     .contact{
         height: 100%;
     }
-    .services-containet{
-        height: 100%;
+    .services-container{
+        gap: 40px;
     }
     #mys{
         padding-top: 70px;
